@@ -19,6 +19,7 @@ def getScandalText(url):
     return result
 '''
 如果你想保存数据，不能报错列表，只能以字符串或者字符类型来保存
+将代码存放至Git仓库
 '''
 def writerScandal(result):
     # w:write
