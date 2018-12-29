@@ -12,7 +12,7 @@ def getScandalText(url):
     headers = {
         "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"
     }
-    ret = requests.get(url,headers = headers).text
+    ret = requests.get(url=url,headers = headers).text
     # .* 能够匹配任何内容无数多次，除了\n（换行符）
     # re.S 表示 . 能匹配到换行符
     result = re.findall('<div class="content">.*?<span>(.*?)</span>.*?</div>',ret,re.S)
