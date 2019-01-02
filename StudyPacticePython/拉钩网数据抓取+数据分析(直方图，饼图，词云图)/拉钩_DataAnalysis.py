@@ -110,8 +110,8 @@ def word_cloud():
     )
     text_test = open('ciyun.txt', 'r', encoding='utf-8').read()
 
-    # word_cloud = cloud.generate(cut_text)
-    word_cloud = cloud.generate(text_test)
+    word_cloud = cloud.generate(cut_text)
+    # word_cloud = cloud.generate(text_test)
     #保存词云图片
     word_cloud.to_file('word_cloud.jpg')
     plt.imshow(word_cloud)
