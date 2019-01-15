@@ -78,3 +78,6 @@ import pandas as pd
 
 df = pd.read_csv('data1.csv')
 print(df)
+
+
+# mongod --bind_ip 0.0.0.0 --logpath "D:\MongoDb\Server4.0\log\mongodb.log" --logappend --dbpath "D:\MongoDb\Server4.0\data" --port 27017 --serviceName "MongoDB" --serviceDisplayName "MongoDB" --install
