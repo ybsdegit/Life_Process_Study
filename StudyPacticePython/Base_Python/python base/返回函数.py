@@ -31,9 +31,15 @@ def lazy_sum(*args):
         return ax
     return sum
 
+
+
+# 利用闭包返回一个计数器函数，每次调用它返回递增整数：
+
 def createCounter():
+    s = [0]
     def counter():
-        return 1
+        s[0] = s[0] + 1
+        return  s[0]
     return counter
 
 # 测试:
