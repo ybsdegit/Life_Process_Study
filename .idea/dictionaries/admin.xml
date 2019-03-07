@@ -1,9 +1,11 @@
 <component name="ProjectDictionaryState">
   <dictionary name="admin">
     <words>
+      <w>interger</w>
       <w>jieba</w>
       <w>nltk</w>
       <w>tokenized</w>
+      <w>userdict</w>
     </words>
   </dictionary>
 </component>

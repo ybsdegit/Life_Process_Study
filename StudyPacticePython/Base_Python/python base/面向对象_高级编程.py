@@ -77,4 +77,68 @@ Python内置的@property装饰器就是负责把一个方法变成属性调用�
 # 请利用@property给一个Screen对象加上width和height属性，以及一个只读属性resolution：
 
 class Screen(object):
-    pass
+
+    @property
+    def width(self):
+        return self._width
+
+
+    @width.setter
+    def width(self,value):
+        if not isinstance(value, int):
+            raise ValueError('width must be an interger')
+        if value < 0:
+            raise ValueError('width must > 0')
+        self._width = value
+
+
+    @property
+    def height(self):
+        return self._height
+
+    @height.setter
+    def height(self,value):
+        if not isinstance(value,int):
+            raise ValueError('height must be an interger')
+        if value < 0 :
+            raise ValueError('height must > 0 ')
+        self._height = value
+
+    @property
+    def resolution(self):
+        return self._width * self._height
+
+
+
+# # 测试:
+# s = Screen()
+# s.width = 1024
+# print(s.width)
+# s.height = 768
+# print('resolution =', s.resolution)
+# if s.resolution == 786432:
+#     print('测试通过!')
+# else:
+#     print('测试失败!')
+
+
+
+
+# 把Student的gender属性改造为枚举类型，可以避免使用字符串：
+from enum import Enum, unique
+
+class Gender(Enum):
+    Male = 0
+    Female = 1
+
+class Student(object):
+    def __init__(self, name, gender):
+        self.name = name
+        self.gender = gender
+
+# 测试:
+bart = Student('Bart', Gender.Male)
+if bart.gender == Gender.Male:
+    print('测试通过!')
+else:
+    print('测试失败!')
