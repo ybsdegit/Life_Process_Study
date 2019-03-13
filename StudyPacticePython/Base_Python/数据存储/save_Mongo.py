@@ -41,6 +41,7 @@ student2 = {
     'age': 21,
     'gender': 'male'
 }
+
 # 调用 collection 的 insert() 方法即可插入数据，
 # insert()方法已经不推荐使用了。推荐使用insert_one() 和 insert_many()方法插入单条和多条记录
 # insert_many() 方法返回的类型是 InsertManyResult，

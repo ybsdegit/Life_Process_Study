@@ -20,7 +20,7 @@ text1 = '''
 <li class="li li-first"><a href="link.html">first item</a></li>
 '''
 
-html = etree.parse('./test.html',etree.HTMLParser())
+# html = etree.parse('./test.html',etree.HTMLParser())
 
 
 # result = html.xpath('//*')
@@ -31,7 +31,7 @@ html = etree.parse('./test.html',etree.HTMLParser())
 # result = html.xpath('//li[@class="item-0"]/a/@href')
 # result = html.xpath('//li[contains(@class,"li")]/a/text()')
 
-html1 = etree.HTML(text1)
+html = etree.HTML(text)
 # result = html1.xpath('//li[contains(@class, "li-first")]/a/text()')
 # result = html.xpath('//li[2]/a/text()')
 # result = html.xpath('//li[last()]/a/text()')
@@ -45,7 +45,7 @@ result = html.xpath('//li[1]/ancestor::div')
 print(result)
 
 
-result = html.xpath('//li[1]/attribute::*') #获取所有的属性值
+result = html.xpath('//li[1]/attribute::*')[0] #获取所有的属性值
 print(result)
 
 result = html.xpath('//li[1]/descendant::*')  #获取所有的子孙节点
