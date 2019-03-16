@@ -30,14 +30,32 @@ desired_caps = {
         "resetKeyboard": True,
         }
 
-driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
-time.sleep(5)
-driver.find_elements_by_id('com.tencent.mm:id/qr')[2].click()   #发现
-time.sleep(5)
-driver.find_elements_by_id('android:id/title')[0].click()       #打开朋友圈
-time.sleep(3)
-for i in range(10):
-        TouchAction(driver).press(x=835, y=1679).move_to(x=637, y=387).release().perform()
+
+
+def test():
+        driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
         time.sleep(5)
-driver.quit()
+        # com.tencent.mm:id/r4
+        driver.find_elements_by_id('com.tencent.mm:id/r4')[2].click()  # 发现
+        time.sleep(3)
+        driver.find_elements_by_id('android:id/title')[0].click()  # 打开朋友圈
+        time.sleep(3)
+        for i in range(100):
+                try:
+                        TouchAction(driver).press(x=835, y=389).move_to(x=637, y=337).release().perform()
+                        time.sleep(3)
+                        driver.find_elements_by_id('com.tencent.mm:id/ee2')[1].click()  # 朋友圈评论按钮
+                        driver.find_elements_by_id('com.tencent.mm:id/ejf')[1].click()  # 朋友圈点赞按钮
+                        time.sleep(2)
+                except Exception as e:
+                        msg = str(e)
+                        print(msg)
+
+
+        driver.quit()
+
+
+if __name__ == '__main__':
+    test()
+
 
