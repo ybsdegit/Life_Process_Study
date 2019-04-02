@@ -69,7 +69,7 @@ def main():
     '''用来完成整体的控制'''
     #  1. 创建套接字
     tcp_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    # 设置当服务器先close ，即服务器4次挥手之后资源能够立即释放，这样就保证了，下次运行程序时，可以立即访问
+    # 设置当服务器先close ，即服务器4次挥手之后资源能够立即释放，这样就保证了，下次运s行程序时，可以立即访问
     tcp_server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
     #  2. 绑定
