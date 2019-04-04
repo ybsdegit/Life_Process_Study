@@ -31,7 +31,6 @@ desired_caps = {
         }
 
 
-
 def test():
         driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
         time.sleep(5)
@@ -40,22 +39,21 @@ def test():
         time.sleep(3)
         driver.find_elements_by_id('android:id/title')[0].click()  # 打开朋友圈
         time.sleep(3)
-        for i in range(100):
+        for i in range(100):  # 循环滑动100次，点赞。
                 try:
-                        TouchAction(driver).press(x=835, y=389).move_to(x=637, y=337).release().perform()
+                        TouchAction(driver).press(x=530, y=350).move_to(x=530, y=300).release().perform()
                         time.sleep(3)
-                        driver.find_elements_by_id('com.tencent.mm:id/ee2')[1].click()  # 朋友圈评论按钮
-                        driver.find_elements_by_id('com.tencent.mm:id/ejf')[1].click()  # 朋友圈点赞按钮
-                        time.sleep(2)
+                        for i in range(3):
+                                driver.find_elements_by_id('com.tencent.mm:id/ee2')[i].click()  # 朋友圈评论按钮
+                                time.sleep(1)
+                                driver.find_elements_by_id('com.tencent.mm:id/ee2')[i].click()  # 朋友圈评论按钮
+                        # driver.find_elements_by_id('com.tencent.mm:id/ejf')[1].click()  # 朋友圈点赞
+                                time.sleep(2)
                 except Exception as e:
                         msg = str(e)
                         print(msg)
-
-
         driver.quit()
 
 
 if __name__ == '__main__':
     test()
-
-
