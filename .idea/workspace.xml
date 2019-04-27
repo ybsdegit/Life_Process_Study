@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a91d31c0-64c7-47b3-b03a-f61d91fb59f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/装饰器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/静态方法和类方法.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Life_Process_Study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Life_Process_Study.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/6_实现简单的http服务器.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/6_实现简单的http服务器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyPacticePython/Base_Python/python入门/.ipynb_checkpoints/上篇-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyPacticePython/Base_Python/python入门/上篇.ipynb" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,29 +43,7 @@
     <SUITE FILE_PATH="coverage/Life_Process_Study$.coverage" NAME="装饰器 Coverage Results" MODIFIED="1554725260811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_NLTK/2_jieba_分词.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/StudyPacticePython/Appium/demo_wechat.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="34" />
-              <folding>
-                <element signature="e#242#253#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -154,9 +132,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="397" />
-    <option name="y" value="40" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="759" />
+    <option name="y" value="55" />
     <option name="width" value="1005" />
     <option name="height" value="1000" />
   </component>
@@ -168,7 +146,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,12 +162,20 @@
               <item name="Life_Process_Study" type="b2602c69:ProjectViewProjectNode" />
               <item name="Life_Process_Study" type="462c0819:PsiDirectoryNode" />
               <item name="StudyPacticePython" type="462c0819:PsiDirectoryNode" />
-              <item name="WebCrawler" type="462c0819:PsiDirectoryNode" />
+              <item name="Base_Python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Life_Process_Study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Life_Process_Study" type="462c0819:PsiDirectoryNode" />
+              <item name="StudyPacticePython" type="462c0819:PsiDirectoryNode" />
+              <item name="Base_Python" type="462c0819:PsiDirectoryNode" />
+              <item name="python入门" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,6 +376,9 @@
       <workItem from="1555177775763" duration="663000" />
       <workItem from="1555224943818" duration="746000" />
       <workItem from="1555743642093" duration="1886000" />
+      <workItem from="1556338643748" duration="2263000" />
+      <workItem from="1556346942477" duration="37000" />
+      <workItem from="1556348715135" duration="1911000" />
     </task>
     <task id="LOCAL-00001" summary="豆瓣代理池">
       <created>1552492598560</created>
@@ -441,11 +429,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554219428051</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="简单的http服务器">
+      <created>1556339789143</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1556339789143</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134292000" />
+    <option name="totallyTimeSpent" value="138503000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -457,10 +452,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="826" y="184" width="1005" height="1000" extended-state="0" />
-    <editor active="true" />
+    <frame x="759" y="55" width="1005" height="1000" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2962963" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26772487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -471,11 +465,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952183" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3760186" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.37410927" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50223714" side_tool="true" weight="0.41792783" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4975186" visible="true" weight="0.3361045" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.4016298" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4975186" weight="0.3361045" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.40142518" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -558,7 +552,8 @@
     <MESSAGE value="爬取微信文章，使用代理（代理完善中ing）" />
     <MESSAGE value="正则表达式" />
     <MESSAGE value="多线程，多进程，协程实现 Http服务器" />
-    <option name="LAST_COMMIT_MESSAGE" value="多线程，多进程，协程实现 Http服务器" />
+    <MESSAGE value="简单的http服务器" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单的http服务器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -844,20 +839,20 @@
     <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_NLTK/userdict.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_NLTK/2_jieba_分词.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StudyPacticePython/Appium/demo_wechat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="-57">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding>
             <element signature="e#242#253#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_NLTK/2_jieba_分词.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
         </state>
       </provider>
     </entry>
