@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a91d31c0-64c7-47b3-b03a-f61d91fb59f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/装饰器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/静态方法和类方法.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Life_Process_Study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Life_Process_Study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/6_实现简单的http服务器.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/6_实现简单的http服务器.py" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/venv/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Life_Process_Study$requests_Base.coverage" NAME="requests_Base Coverage Results" MODIFIED="1552486962098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Base_crawler" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$depth_level_tree.coverage" NAME="depth_level_tree Coverage Results" MODIFIED="1552743327012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Practice" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$_.coverage" NAME="豆瓣_线程池 Coverage Results" MODIFIED="1552490115141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Practice/豆瓣(线程池)" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$geventhttp.coverage" NAME="gevent实现http服务器 Coverage Results" MODIFIED="1554035417697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$demo_wechat.coverage" NAME="demo_wechat Coverage Results" MODIFIED="1552735364706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Appium" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$query.coverage" NAME="query Coverage Results" MODIFIED="1552821180457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/天气预报" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$Mongo_demo.coverage" NAME="Mongo_demo Coverage Results" MODIFIED="1551590322114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Base_crawler" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$wechatArticies.coverage" NAME="wechatArticies Coverage Results" MODIFIED="1553271658984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Practice/微信文章" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$_1.coverage" NAME="豆瓣_1 Coverage Results" MODIFIED="1552742484358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Practice/豆瓣(线程池)" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$1_3n.coverage" NAME="1_3保留n个元素 Coverage Results" MODIFIED="1552831094855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/cook_book" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1553526191616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$douban250.coverage" NAME="douban250 Coverage Results" MODIFIED="1548688561273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/WebCrawler/豆瓣" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$11____.coverage" NAME="11_单进程_单线程_非堵塞_长链接 Coverage Results" MODIFIED="1554125088529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$demo.coverage" NAME="demo Coverage Results" MODIFIED="1553524657303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/.ipynb_checkpoints" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$163.coverage" NAME="匹配163邮箱 Coverage Results" MODIFIED="1553518390832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$1_2.coverage" NAME="1_2 Coverage Results" MODIFIED="1552830250271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/cook_book" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$base_xpath.coverage" NAME="base_xpath Coverage Results" MODIFIED="1552487778507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/解析库的使用" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$city_data.coverage" NAME="city_data Coverage Results" MODIFIED="1552747472867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/天气预报" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$12_epollhttp.coverage" NAME="12_epoll实现http服务器 Coverage Results" MODIFIED="1554219364906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$_pydev_execfile.coverage" NAME="_pydev_execfile Coverage Results" MODIFIED="1554127696265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$weather.coverage" NAME="weather Coverage Results" MODIFIED="1552822946050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/天气预报" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$http.coverage" NAME="多线程实现http服务器 Coverage Results" MODIFIED="1553860854752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$Ui_weather.coverage" NAME="Ui_weather Coverage Results" MODIFIED="1552821838370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/天气预报" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$1_4N.coverage" NAME="1_4查找最大或最小的N个元素 Coverage Results" MODIFIED="1552831801008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/cook_book" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$.coverage" NAME="装饰器 Coverage Results" MODIFIED="1554725260811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_NLTK/2_jieba_分词.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/StudyPacticePython/Appium/demo_wechat.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="34" />
+              <folding>
+                <element signature="e#242#253#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>forecast</find>
+      <find>wendu</find>
+      <find>sleep</find>
+      <find>right</find>
+      <find>pc6</find>
+      <find>www.pc6.com</find>
+      <find>multiprocessing</find>
+      <find>:</find>
+      <find>recv</find>
+      <find>'''</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>threading</replace>
+      <replace>&quot;&quot;&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Base_crawler/Mongo_demo.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Base_crawler/requests_Base.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Practice/内涵段子/neihan.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Practice/拉勾网/lagou.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/解析库的使用/base_xpath.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Practice/豆瓣(线程池)/豆瓣_线程池.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Practice/豆瓣(线程池)/代理IP.txt" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Practice/豆瓣(线程池)/代理.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Practice/豆瓣(线程池)/豆瓣_1.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Practice/豆瓣(线程池)/可用代理IP.txt" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Appium/demo_wechat.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python base/装饰器.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/天气预报/china-city-list.csv" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/天气预报/city_data.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/天气预报/weather.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/天气预报/query.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/cook_book/1_2.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/cook_book/1_2可迭代对象.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/cook_book/1_3.txt" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/cook_book/1_3保留n个元素.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/cook_book/1_4查找最大或最小的N个元素.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Practice/微信文章.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Practice/微信文章/wechatArticies.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Practice/RedisFlask代理池.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/python学习.ipynb" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/迭代器.ipynb" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/生成器.ipynb" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/yield多任务.ipynb" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/get_all_urls.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/多任务.ipynb" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/并发下载器.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/匹配163邮箱.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/匹配邮箱.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/.ipynb_checkpoints/demo.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/demo.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/tcp三次握手.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/html/404.html" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/实现简单的http服务器.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/多进程、线程实现http服务器.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/多进程实现http服务器.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/多线程实现http服务器.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/单进程非堵塞实现并发的原理.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/gevent实现http服务器.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/单进程单进程非堵塞实现并发的原理.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/8_单进程单进程非堵塞实现并发的原理.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/11_单进程_单线程_非堵塞_长链接.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/12_epoll实现http服务器.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/10_多进程实现http服务器.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/解释器.py" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/静态方法和类方法.ipynb" />
+        <option value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/装饰器.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="397" />
+    <option name="y" value="40" />
+    <option name="width" value="1005" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Life_Process_Study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Life_Process_Study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Life_Process_Study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Life_Process_Study" type="462c0819:PsiDirectoryNode" />
+              <item name="StudyPacticePython" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Life_Process_Study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Life_Process_Study" type="462c0819:PsiDirectoryNode" />
+              <item name="StudyPacticePython" type="462c0819:PsiDirectoryNode" />
+              <item name="WebCrawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ybsde\PycharmProjects\Life_Process_Study\StudyPacticePython\Base_Python\python学习" />
+      <recent name="C:\Users\ybsde\PycharmProjects\Life_Process_Study\StudyPacticePython\WebCrawler\Practice\Flask_Mongo_ProxyPool" />
+      <recent name="C:\Users\ybsde\PycharmProjects\Life_Process_Study\StudyPacticePython\天气预报" />
+      <recent name="C:\Users\ybsde\PycharmProjects\Life_Process_Study\StudyPacticePython\WebCrawler" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ybsde\PycharmProjects\Life_Process_Study\StudyPacticePython\Base_Python\python学习" />
+      <recent name="C:\Users\ybsde\PycharmProjects\Life_Process_Study\StudyPacticePython\WebCrawler\Practice" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.10_多进程实现http服务器">
+    <configuration name="解释器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Life_Process_Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\ybsde\PycharmProjects\Life_Process_Study\StudyPacticePython\Base_Python\python学习\装饰器.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="10_多进程实现http服务器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Life_Process_Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/10_多进程实现http服务器.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="12_epoll实现http服务器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Life_Process_Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/12_epoll实现http服务器.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="装饰器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Life_Process_Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/装饰器.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_pydev_execfile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Life_Process_Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Life_Process_Study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.解释器" />
+        <item itemvalue="Python.10_多进程实现http服务器" />
+        <item itemvalue="Python.12_epoll实现http服务器" />
+        <item itemvalue="Python._pydev_execfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a91d31c0-64c7-47b3-b03a-f61d91fb59f3" name="Default Changelist" comment="" />
+      <created>1548680335688</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548680335688</updated>
+      <workItem from="1548680336807" duration="6972000" />
+      <workItem from="1551530884243" duration="1675000" />
+      <workItem from="1551589004873" duration="4390000" />
+      <workItem from="1552402192087" duration="89000" />
+      <workItem from="1552402343139" duration="8634000" />
+      <workItem from="1552649481699" duration="22603000" />
+      <workItem from="1552819236843" duration="8457000" />
+      <workItem from="1552917212419" duration="9706000" />
+      <workItem from="1553270210286" duration="4730000" />
+      <workItem from="1553275423174" duration="8417000" />
+      <workItem from="1553340831642" duration="50238000" />
+      <workItem from="1554303445636" duration="3153000" />
+      <workItem from="1554905778477" duration="72000" />
+      <workItem from="1554907462840" duration="1106000" />
+      <workItem from="1555146619781" duration="701000" />
+      <workItem from="1555155670745" duration="54000" />
+      <workItem from="1555177775763" duration="663000" />
+      <workItem from="1555224943818" duration="746000" />
+      <workItem from="1555743642093" duration="1886000" />
+    </task>
+    <task id="LOCAL-00001" summary="豆瓣代理池">
+      <created>1552492598560</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552492598560</updated>
+    </task>
+    <task id="LOCAL-00002" summary="豆瓣代理池-最终版（代理IP资源极不稳定）">
+      <created>1552743026082</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552743026082</updated>
+    </task>
+    <task id="LOCAL-00003" summary="cook book python 数据结构初学">
+      <created>1552832437655</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552832437655</updated>
+    </task>
+    <task id="LOCAL-00004" summary="爬取微信文章，使用代理（代理完善中ing）">
+      <created>1553183730160</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553183730160</updated>
+    </task>
+    <task id="LOCAL-00005" summary="正则表达式">
+      <created>1553528359871</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553528359871</updated>
+    </task>
+    <task id="LOCAL-00006" summary="多线程，多进程，协程实现 Http服务器">
+      <created>1554122468192</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554122468192</updated>
+    </task>
+    <task id="LOCAL-00007" summary="多线程，多进程，协程实现 Http服务器">
+      <created>1554219428051</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554219428051</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="134292000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="826" y="184" width="1005" height="1000" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2962963" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3282887" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776286" weight="0.41792783" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39697322" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32952183" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3760186" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50223714" side_tool="true" weight="0.41792783" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4975186" visible="true" weight="0.3361045" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.4016298" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" x="0" y="0" width="188" height="793" id="Documentation" order="5" side_tool="true" visible="true" weight="0.08465608" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4035181" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3282887" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776286" weight="0.41792783" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39697322" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32952183" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3760186" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50223714" side_tool="true" weight="0.41792783" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4975186" weight="0.3154436" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.86334056" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" x="0" y="0" width="188" height="793" id="Documentation" order="5" side_tool="true" weight="0.32997763" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="豆瓣代理池" />
+    <MESSAGE value="豆瓣代理池-最终版（代理IP资源极不稳定）" />
+    <MESSAGE value="cook book python 数据结构初学" />
+    <MESSAGE value="爬取微信文章，使用代理（代理完善中ing）" />
+    <MESSAGE value="正则表达式" />
+    <MESSAGE value="多线程，多进程，协程实现 Http服务器" />
+    <option name="LAST_COMMIT_MESSAGE" value="多线程，多进程，协程实现 Http服务器" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/StudyPacticePython/Base_Python/cook_book/1_3保留n个元素.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-438568531/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="4212" column="8" selection-start-line="4212" selection-start-column="8" selection-end-line="4212" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/生成器.ipynb" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-438568531/greenlet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/get_all_urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/多任务.ipynb" />
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/douyu.jpg" />
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/2.jpg" />
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/demo.html" />
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/匹配邮箱.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/并发下载器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="31" selection-end-column="21" />
+          <folding>
+            <element signature="e#161#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/解析库的使用/base_xpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/16095.hdf" />
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/16042.hdf" />
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/demo.py" />
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/1.html" />
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/404.html" />
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="8563" column="4" selection-start-line="8563" selection-start-column="4" selection-end-line="8563" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/tcp三次握手.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/html/404.html" />
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/WebCrawler/Practice/拉勾网/lagou.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/数据存储/save_Mongo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/unittest_Base/mydict_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/socket.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="549" column="55" lean-forward="true" selection-start-line="549" selection-start-column="55" selection-end-line="549" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/8_单进程单进程非堵塞实现并发的原理.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#211#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/gevent/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/WebCrawler/Practice/微信文章/wechatArticies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="38" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/9_gevent实现http服务器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="70" column="24" selection-start-line="70" selection-end-line="71" />
+          <folding>
+            <element signature="e#172#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/7_多线程实现http服务器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/6_实现简单的http服务器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="88" selection-start-line="7" selection-end-line="88" />
+          <folding>
+            <element signature="e#168#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-438568531/select.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/10_多进程实现http服务器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+          <folding>
+            <element signature="e#173#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/12_epoll实现http服务器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="80" column="17" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
+          <folding>
+            <element signature="e#191#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/11_单进程_单线程_非堵塞_长链接.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="85" column="1" lean-forward="true" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+          <folding>
+            <element signature="e#175#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/静态方法和类方法.ipynb" />
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/装饰器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/WebCrawler/Base_crawler/Mongo_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/WebCrawler/Base_crawler/requests_Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/WebCrawler/包图网视频爬取/包图网.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="e#120#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_NLTK/2_HanLP_分词.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_NLTK/3_关键字提取.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_NLTK/4_文本可视化.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_NLTK/5_词向量.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#208#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_NLTK/5_词袋模型.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1011" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_NLTK/6_基于ML的中文短文本分类.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_NLTK/wordfreq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_NLTK/userdict.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_NLTK/2_jieba_分词.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudyPacticePython/Appium/demo_wechat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#242#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

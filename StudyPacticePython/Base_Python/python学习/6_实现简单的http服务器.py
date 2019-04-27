@@ -62,9 +62,6 @@ def service_client(new_socket):
     new_socket.close()
 
 
-
-
-
 if __name__ == '__main__':
     '''用来完成整体的控制'''
     #  1. 创建套接字
