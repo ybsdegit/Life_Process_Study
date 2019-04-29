@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a91d31c0-64c7-47b3-b03a-f61d91fb59f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Life_Process_Study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Life_Process_Study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyPacticePython/Base_Python/python入门/.ipynb_checkpoints/上篇-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyPacticePython/Base_Python/python入门/上篇.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyPacticePython/Base_Python/python入门/Python3最细最全入门教程上篇.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyPacticePython/Base_Python/python入门/Python3最细最全入门教程上篇.ipynb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,34 +13,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Life_Process_Study$requests_Base.coverage" NAME="requests_Base Coverage Results" MODIFIED="1552486962098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Base_crawler" />
-    <SUITE FILE_PATH="coverage/Life_Process_Study$depth_level_tree.coverage" NAME="depth_level_tree Coverage Results" MODIFIED="1552743327012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Practice" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1553526191616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
     <SUITE FILE_PATH="coverage/Life_Process_Study$_.coverage" NAME="豆瓣_线程池 Coverage Results" MODIFIED="1552490115141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Practice/豆瓣(线程池)" />
-    <SUITE FILE_PATH="coverage/Life_Process_Study$geventhttp.coverage" NAME="gevent实现http服务器 Coverage Results" MODIFIED="1554035417697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
     <SUITE FILE_PATH="coverage/Life_Process_Study$demo_wechat.coverage" NAME="demo_wechat Coverage Results" MODIFIED="1552735364706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Appium" />
-    <SUITE FILE_PATH="coverage/Life_Process_Study$query.coverage" NAME="query Coverage Results" MODIFIED="1552821180457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/天气预报" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$1_4N.coverage" NAME="1_4查找最大或最小的N个元素 Coverage Results" MODIFIED="1552831801008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/cook_book" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$demo.coverage" NAME="demo Coverage Results" MODIFIED="1553524657303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/.ipynb_checkpoints" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$12_epollhttp.coverage" NAME="12_epoll实现http服务器 Coverage Results" MODIFIED="1554219364906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$depth_level_tree.coverage" NAME="depth_level_tree Coverage Results" MODIFIED="1552743327012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Practice" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$douban250.coverage" NAME="douban250 Coverage Results" MODIFIED="1548688561273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/WebCrawler/豆瓣" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$163.coverage" NAME="匹配163邮箱 Coverage Results" MODIFIED="1553518390832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$http.coverage" NAME="多线程实现http服务器 Coverage Results" MODIFIED="1553860854752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$requests_Base.coverage" NAME="requests_Base Coverage Results" MODIFIED="1552486962098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Base_crawler" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$11____.coverage" NAME="11_单进程_单线程_非堵塞_长链接 Coverage Results" MODIFIED="1554125088529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$1_3n.coverage" NAME="1_3保留n个元素 Coverage Results" MODIFIED="1552831094855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/cook_book" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$_pydev_execfile.coverage" NAME="_pydev_execfile Coverage Results" MODIFIED="1554127696265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$Ui_weather.coverage" NAME="Ui_weather Coverage Results" MODIFIED="1552821838370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/天气预报" />
     <SUITE FILE_PATH="coverage/Life_Process_Study$Mongo_demo.coverage" NAME="Mongo_demo Coverage Results" MODIFIED="1551590322114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Base_crawler" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$.coverage" NAME="装饰器 Coverage Results" MODIFIED="1554725260811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$base_xpath.coverage" NAME="base_xpath Coverage Results" MODIFIED="1552487778507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/解析库的使用" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$query.coverage" NAME="query Coverage Results" MODIFIED="1552821180457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/天气预报" />
     <SUITE FILE_PATH="coverage/Life_Process_Study$wechatArticies.coverage" NAME="wechatArticies Coverage Results" MODIFIED="1553271658984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Practice/微信文章" />
     <SUITE FILE_PATH="coverage/Life_Process_Study$_1.coverage" NAME="豆瓣_1 Coverage Results" MODIFIED="1552742484358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/WebCrawler/Practice/豆瓣(线程池)" />
-    <SUITE FILE_PATH="coverage/Life_Process_Study$1_3n.coverage" NAME="1_3保留n个元素 Coverage Results" MODIFIED="1552831094855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/cook_book" />
-    <SUITE FILE_PATH="coverage/Life_Process_Study$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1553526191616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
-    <SUITE FILE_PATH="coverage/Life_Process_Study$douban250.coverage" NAME="douban250 Coverage Results" MODIFIED="1548688561273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/WebCrawler/豆瓣" />
-    <SUITE FILE_PATH="coverage/Life_Process_Study$11____.coverage" NAME="11_单进程_单线程_非堵塞_长链接 Coverage Results" MODIFIED="1554125088529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
-    <SUITE FILE_PATH="coverage/Life_Process_Study$demo.coverage" NAME="demo Coverage Results" MODIFIED="1553524657303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/.ipynb_checkpoints" />
-    <SUITE FILE_PATH="coverage/Life_Process_Study$163.coverage" NAME="匹配163邮箱 Coverage Results" MODIFIED="1553518390832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
-    <SUITE FILE_PATH="coverage/Life_Process_Study$1_2.coverage" NAME="1_2 Coverage Results" MODIFIED="1552830250271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/cook_book" />
-    <SUITE FILE_PATH="coverage/Life_Process_Study$base_xpath.coverage" NAME="base_xpath Coverage Results" MODIFIED="1552487778507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/解析库的使用" />
     <SUITE FILE_PATH="coverage/Life_Process_Study$city_data.coverage" NAME="city_data Coverage Results" MODIFIED="1552747472867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/天气预报" />
-    <SUITE FILE_PATH="coverage/Life_Process_Study$12_epollhttp.coverage" NAME="12_epoll实现http服务器 Coverage Results" MODIFIED="1554219364906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
-    <SUITE FILE_PATH="coverage/Life_Process_Study$_pydev_execfile.coverage" NAME="_pydev_execfile Coverage Results" MODIFIED="1554127696265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$1_2.coverage" NAME="1_2 Coverage Results" MODIFIED="1552830250271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/cook_book" />
+    <SUITE FILE_PATH="coverage/Life_Process_Study$geventhttp.coverage" NAME="gevent实现http服务器 Coverage Results" MODIFIED="1554035417697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
     <SUITE FILE_PATH="coverage/Life_Process_Study$weather.coverage" NAME="weather Coverage Results" MODIFIED="1552822946050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/天气预报" />
-    <SUITE FILE_PATH="coverage/Life_Process_Study$http.coverage" NAME="多线程实现http服务器 Coverage Results" MODIFIED="1553860854752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
-    <SUITE FILE_PATH="coverage/Life_Process_Study$Ui_weather.coverage" NAME="Ui_weather Coverage Results" MODIFIED="1552821838370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/天气预报" />
-    <SUITE FILE_PATH="coverage/Life_Process_Study$1_4N.coverage" NAME="1_4查找最大或最小的N个元素 Coverage Results" MODIFIED="1552831801008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/cook_book" />
-    <SUITE FILE_PATH="coverage/Life_Process_Study$.coverage" NAME="装饰器 Coverage Results" MODIFIED="1554725260811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -132,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="759" />
     <option name="y" value="55" />
     <option name="width" value="1005" />
@@ -379,6 +376,8 @@
       <workItem from="1556338643748" duration="2263000" />
       <workItem from="1556346942477" duration="37000" />
       <workItem from="1556348715135" duration="1911000" />
+      <workItem from="1556442793699" duration="132000" />
+      <workItem from="1556442940463" duration="1288000" />
     </task>
     <task id="LOCAL-00001" summary="豆瓣代理池">
       <created>1552492598560</created>
@@ -440,7 +439,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138503000" />
+    <option name="totallyTimeSpent" value="139923000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -452,9 +451,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="759" y="55" width="1005" height="1000" extended-state="0" />
+    <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26772487" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2927383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -463,19 +462,19 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39697322" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32952183" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32935154" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.37410927" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.37201366" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50223714" side_tool="true" weight="0.41792783" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4975186" weight="0.3361045" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.40142518" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4975186" weight="0.3327645" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.5767918" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" x="0" y="0" width="188" height="793" id="Documentation" order="5" side_tool="true" visible="true" weight="0.08465608" />
+      <window_info anchor="right" x="0" y="0" width="188" height="793" id="Documentation" order="5" side_tool="true" visible="true" weight="0.08396369" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4035181" />
@@ -567,21 +566,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-438568531/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="4212" column="8" selection-start-line="4212" selection-start-column="8" selection-end-line="4212" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-438568531/builtins.py" />
     <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/python学习/生成器.ipynb" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-438568531/greenlet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-438568531/greenlet.py" />
     <entry file="file://$PROJECT_DIR$/StudyPacticePython/Base_Python/get_all_urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
@@ -718,13 +705,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-438568531/select.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-438568531/select.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
