@@ -21,6 +21,7 @@ async def main():
     for i in range(1, 5):
         s = asyncio.create_task(whattime(i))
 
-    await  asyncio.sleep(1)
+    await asyncio.sleep(1)
+
 
 asyncio.run(main())
