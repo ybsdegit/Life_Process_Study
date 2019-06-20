@@ -6,7 +6,7 @@
 # @software: PyCharm
 # @time: 2019/4/1 17:55
 # @author: Paulson●Wier
-# @file: demo.py
+# @file: 1_安装demo.py
 # @desc:
 
 import datetime

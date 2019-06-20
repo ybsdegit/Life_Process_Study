@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2019/1/14 21:52
 # @Author  : Paulson
-# @File    : demo.py
+# @File    : 1_安装demo.py
 # @Software: PyCharm
 # @define  : function
 
